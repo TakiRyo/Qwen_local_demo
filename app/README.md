@@ -1,0 +1,1 @@
+This folder contains the FastAPI app, static assets, and templates.

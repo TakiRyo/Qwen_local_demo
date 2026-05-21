@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VLM Local Demo</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>VLM Local Demo</h1>
+      <p>Chat UI connected to Qwen via vLLM.</p>
+    </header>
+
+    <section id="chat" class="chat"></section>
+
+    <form id="chat-form" class="input-area">
+      <input type="text" id="message" placeholder="Type your message..." autocomplete="off" required />
+      <button type="submit">Send</button>
+      <button type="button" id="reset">Reset</button>
+    </form>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
